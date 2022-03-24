@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#groups{
+    display: flex;
+    justify-content:center;
+    row-gap: 20px;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.celular{
+    width: 600px;
+    height: 600px;
+}
+
+#form-login{
+    background-color: #ffffff;
+    width: 320px;
+    height: 350px;
+    box-shadow: 0px 0px 1px #000000;
+   
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+#logo-image{
+    width: 150px;
+    height: 40px;
+}
+
+.form-instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+}
+input{
+    margin: 0px 0px 10px 0px;
+    width: 220px;
+    height: 30px;
+    font-size: 12px;
+    padding: 0px 0px 0px 5px;
+    
+}
+
+.group-traço{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.traço-a{
+    border-top: 1px solid gray;
+    width: 100px;
+}
+
+.traço-b{
+    border-top: 1px solid gray;
+    width: 100px;
+}
+
+.entrar{
+    width: 220px;
+    height: 25px;
+    background-color: #0095F6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.link-facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#icons-social{
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px 0px 0px;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+#link-cadastro{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 1px black;
+    width: 320px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.senha{
+    font-size: 14px;
+    color: rgba(58, 58, 189, 0.945);
+}
+
+.cadastra-se{
+    color:#0095F6;
+}
+
+#apps-icon{
+    width: 136px;
+    height: 44px;
+}
+
+#apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+}
+p{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+body{
+   background-color:  rgb(243, 243, 243);
+}
